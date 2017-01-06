@@ -1,0 +1,8 @@
+Hola #USERNAME#
+
+Gracias por registrarse en nuestro sitio portalcasablanca.cl
+#ACTIVATION-MESSAGE
+
+ Saludos,
+ Marlon Falcon Hernandez
+ portalcasablanca.cl

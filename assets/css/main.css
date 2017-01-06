@@ -1,0 +1,676 @@
+a:link{
+	text-decoration: none;
+}
+
+
+a:hover{
+	color: #27ae9f;
+}
+
+
+.categorias{
+   padding: 20px 0px;
+   background-color: #ecf0f1;
+   background-image: url("../img/bg.png");
+}
+
+.categorias .categoria-header{
+	background-color: #fff;
+	padding: 10px;
+	font-size: 1.5rem;
+	border-bottom: 2px solid #222;
+	/*Firefox*/
+-moz-border-top-left-radius: 9px;
+-moz-border-top-right-radius: 9px;
+-moz-border-bottom-right-radius: 0px;
+-moz-border-bottom-left-radius: 0px;
+/*Safari, Chrome*/
+-webkit-border-top-left-radius: 9px;
+-webkit-border-top-right-radius: 9px;
+-webkit-border-bottom-right-radius: 0px;
+-webkit-border-bottom-left-radius: 0px;
+border-top-left-radius: 9px;
+border-top-right-radius: 9px;
+border-bottom-right-radius: 0px;
+border-bottom-left-radius: 0px;
+}
+
+.categorias .categoria-header span{
+	margin-right: 5px;
+}
+
+.categorias .categoria-header a{
+	margin-right: 5px;
+    color: #333;
+    border: 2px none #222;
+}
+
+
+
+.categorias .categoria-body{
+	background-color: #f8fbfc;
+	padding: 10px;
+	margin-bottom: 10px;
+	border-bottom: 2px solid #222;
+	min-height: 150px;
+}
+
+
+.categorias .categoria-body a{
+	color: #333333;	
+}
+
+.publicar{
+	padding: 20px 0px;
+	text-align: center;
+}
+
+.social{
+	background-color: #e0e0e0;
+	padding: 20px 0px;
+	text-align: center;
+	font-size: 3rem;
+}
+
+
+
+.social a{
+	color: #333333;
+}
+
+.footer1 a{
+  color: #333333;
+}
+
+.footer1{
+   background-color: #e0e0e0;
+	 color: #333333;
+	 padding: 10px 0px;
+}
+
+
+.footer2{
+	 background-color: #222222;
+	 color: #fff;
+	 padding: 10px 0px;
+}
+
+
+.footer2 a{
+  color: #fff;
+}
+
+
+.circulo1{
+	color: #1abc9c;
+}
+
+
+.circulo2{
+	color: #f39c12;
+}
+
+.circulo3{
+	color: #3498db;
+}
+
+.circulo4{
+	color: #a66bbe;
+}
+
+
+.circulo5{
+	color: #bdc3c7;
+}
+
+
+.circulo6{
+	color: #e74c3c;
+}
+
+.circulo7{
+	color: #34495e;
+}
+
+.circulo8{
+	color: #2ecc71;
+}
+
+
+.circulo9{
+	color: red;
+}
+
+
+.circulo10{
+	color: blue;
+}
+
+.circulo11{
+	color: green;
+}
+
+.circulo12{
+	color: black;
+}
+
+
+.centrado{
+	text-align: center;
+	margin: 20px;
+}
+
+
+.barrainfo{
+	margin-top: 50px;
+	background-color: #e0e0e0;
+	padding: 20px 0px;
+	text-align: center;
+	color: #333;  
+}
+
+.carousel-inner .item img{
+	width: 100%;
+	text-align: center;
+}
+
+
+.noticias{
+	padding: 20px 0px;
+}
+
+.mylink{
+	color: #333;
+	
+}
+
+
+.mythumb{
+	padding: 5px;
+}
+
+.carousel-caption h1, .carousel-caption h5{
+	background-color: #000;
+	padding: 5px;
+	text-align: center;
+	display: inline-block;
+}
+
+.mythumb {
+	color: #333333;
+}
+
+
+.publicar{
+	border-top: 2px solid #29b6a6;
+}
+
+.main-tools{
+	min-height: 600px;
+	margin-top: 100px;
+}
+
+.jumbotronmy{
+	background-color: #f5f5f5;
+	padding: 30px;
+	margin-bottom: 30px;
+}
+
+
+.loginform{
+	text-align: center;
+	padding: 130px 0px;
+	margin-top: 50px;
+	min-height: 500px;
+}
+
+
+.main-contacto{
+  padding: 130px 0px;
+  margin-top: 20px;
+  min-height: 500px;
+}
+
+.main-activo{
+  padding: 130px 0px;
+  margin-top: 20px;
+  height: 700px;
+}
+
+
+.main-condiciones{
+  padding: 130px 0px;
+  margin-top: 20px;
+  min-height: 700px;
+}
+
+
+
+.ultimas_publicaciones .amr1 1img{
+	width: 100%;
+	height: 100%;
+	min-width: 0%;
+	min-height: 0%;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.ultimas_publicaciones .amr1 {
+	height: 150px;
+	width: 150px;
+}
+
+
+.jumbotronmy2{
+	background-color: #fff;
+	padding: 5px;
+}
+
+
+@import url(http://fonts.googleapis.com/css?family=Roboto);
+
+/****** LOGIN MODAL ******/
+.loginmodal-container {
+  padding: 30px;
+  max-width: 350px;
+  width: 100% !important;
+  background-color: #F7F7F7;
+  margin: 0 auto;
+  border-radius: 2px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+  font-family: roboto;
+}
+
+.loginmodal-container h1 {
+  text-align: center;
+  font-size: 1.8em;
+  font-family: roboto;
+}
+
+.loginmodal-container input[type=submit] {
+  width: 100%;
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.loginmodal-container input[type=text], input[type=password] {
+  width: 100%;
+  margin-bottom: 10px;
+  -webkit-appearance: none;
+  background: #fff;
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  /* border-radius: 2px; */
+  padding: 0 8px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.loginmodal-container input[type=text]:hover, input[type=password]:hover {
+  border: 1px solid #b9b9b9;
+  border-top: 1px solid #a0a0a0;
+  -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.loginmodal {
+  text-align: center;
+  font-size: 14px;
+  font-family: 'Arial', sans-serif;
+  font-weight: 700;
+  height: 36px;
+  padding: 0 8px;
+/* border-radius: 3px; */
+/* -webkit-user-select: none;
+  user-select: none; */
+}
+
+.loginmodal-submit {
+  /* border: 1px solid #3079ed; */
+  border: 0px;
+  color: #fff;
+  text-shadow: 0 1px rgba(0,0,0,0.1); 
+  background-color: #4d90fe;
+  padding: 17px 0px;
+  font-family: roboto;
+  font-size: 14px;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#4787ed)); */
+}
+
+.loginmodal-submit:hover {
+  /* border: 1px solid #2f5bb7; */
+  border: 0px;
+  text-shadow: 0 1px rgba(0,0,0,0.3);
+  background-color: #357ae8;
+  /* background-image: -webkit-gradient(linear, 0 0, 0 100%,   from(#4d90fe), to(#357ae8)); */
+}
+
+.loginmodal-container a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 400;
+  text-align: center;
+  display: inline-block;
+  opacity: 0.6;
+  transition: opacity ease 0.5s;
+} 
+
+.login-help{
+  font-size: 12px;
+}
+
+
+.ultimas_publicaciones{
+	margin-top: 100px;
+}
+
+
+.user_se_sup {
+	min-height: 600px;
+	margin-top: 100px;
+}
+
+.user_settings_main{
+		min-height: 400px;
+}
+
+.mydiv-ok{
+	min-height: 600px;
+	margin-top: 100px;
+}
+
+
+.fullancho{
+	width: 60%;
+	height: auto;
+}
+
+.myactive{
+	border: 2px solid #000;
+    -moz-border-radius: 0px;/*Firefox*/
+    -webkit-border-radius: 0px;/*Safari, Chrome*/
+    border-radius: 0px;
+}
+
+.caja-imagen{
+	width: 113px;
+	height: 85px;
+	background-color: #f5f5f5;
+}
+
+.photo-caja{
+	background-color: #f5f5f5;
+	height: 200px;
+	overflow: hidden;
+  padding: 5px;
+}
+
+
+.mymedia-img{
+	text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+    margin:auto;
+    display:block;
+}
+
+.caja-img{
+	background-color: #f5f5f5;
+	max-width:100%;
+	height: 465px;
+}
+
+.negrita{
+	font-weight: 700;
+}
+
+.hidenmy{
+	overflow: hidden;
+}
+
+
+
+
+
+.productosdestacados{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	min-height: 470px;
+}
+.col-item
+{
+    border: 1px solid #E1E1E1;
+    border-radius: 5px;
+    background: #FFF;
+}
+.col-item .photo img
+{
+    margin: 0 auto;
+    width: 100%;
+}
+
+.col-item .info
+{
+    padding: 10px;
+    border-radius: 0 0 5px 5px;
+    margin-top: 1px;
+}
+
+.col-item:hover .info {
+    background-color: #F5F5DC;
+}
+.col-item .price
+{
+    /*width: 50%;*/
+    float: left;
+    margin-top: 5px;
+}
+
+.col-item .price h5
+{
+    line-height: 20px;
+    margin: 0;
+}
+
+.price-text-color
+{
+    color: #219FD1;
+}
+
+.col-item .info .rating
+{
+    color: #777;
+}
+
+.col-item .rating
+{
+    /*width: 50%;*/
+    float: left;
+    font-size: 17px;
+    text-align: right;
+    line-height: 52px;
+    margin-bottom: 10px;
+    height: 52px;
+}
+
+.col-item .separator
+{
+    border-top: 1px solid #E1E1E1;
+}
+
+.clear-left
+{
+    clear: left;
+}
+
+.col-item .separator p
+{
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.col-item .separator p i
+{
+    margin-right: 5px;
+}
+.col-item .btn-add
+{
+    width: 50%;
+    float: left;
+}
+
+.col-item .btn-add
+{
+    border-right: 1px solid #E1E1E1;
+}
+
+.col-item .btn-details
+{
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+}
+.controls
+{
+    margin-top: 20px;
+}
+[data-slide="prev"]
+{
+    margin-right: 10px;
+}
+
+
+
+.db-bk-color-one {
+    background-color: #f55039;
+}
+
+.db-bk-color-two {
+    background-color: #46A6F7;
+}
+
+.db-bk-color-three {
+    background-color: #47887E;
+}
+
+.db-bk-color-six {
+    background-color: #F59B24;
+}
+/*============================================================
+PRICING STYLES
+==========================================================*/
+.db-padding-btm {
+    padding-bottom: 50px;
+}
+.db-button-color-square {
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.50);
+    border: none;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+}
+
+    .db-button-color-square:hover {
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.50);
+        border: none;
+    }
+
+
+.db-pricing-eleven {
+    margin-bottom: 30px;
+    margin-top: 50px;
+    text-align: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+    color: #fff;
+    line-height: 30px;
+}
+
+    .db-pricing-eleven ul {
+        list-style: none;
+        margin: 0;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+        .db-pricing-eleven ul li {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            cursor: pointer;
+        }
+
+            .db-pricing-eleven ul li i {
+                margin-right: 5px;
+            }
+
+
+    .db-pricing-eleven .price {
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 40px 20px 20px 20px;
+        font-size: 60px;
+        font-weight: 900;
+        color: #FFFFFF;
+    }
+
+        .db-pricing-eleven .price small {
+            color: #B8B8B8;
+            display: block;
+            font-size: 12px;
+            margin-top: 22px;
+        }
+
+    .db-pricing-eleven .type {
+        background-color: #222222;
+        padding: 50px 20px;
+        font-weight: 900;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+
+    .db-pricing-eleven .pricing-footer {
+        padding: 20px;
+    }
+
+.db-attached > .col-lg-4,
+.db-attached > .col-lg-3,
+.db-attached > .col-md-4,
+.db-attached > .col-md-3,
+.db-attached > .col-sm-4,
+.db-attached > .col-sm-3 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.db-pricing-eleven.popular {
+    margin-top: 10px;
+}
+
+    .db-pricing-eleven.popular .price {
+        padding-top: 80px;
+    }
+
+
+.publicidad{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}   
+
+
+ a {
+  color: #333;
+}
+
+ a:hover {
+  color: #000;
+}
+
+.price-text-color
+{
+  color: #333;
+}
